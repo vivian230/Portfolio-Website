@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resets.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <ul class="topnav">
+                <li class="page-name"><a href="index.html">Home</a></li>
+                <!-- <li><a href="login.html">Login</a></li> -->
+                <li class="topnav-links"><a href="blog.html">Blog</a></li>
+                <li class="topnav-links"><a href="contact.html">Contact</a></li>
+                <li class="topnav-links"><a href=index.html#portfolio>Portfolio</a></li> 
+                <li class="topnav-links"><a href=index.html#about-me>About</a></li>
+            </ul>
+        </nav>
+        <section id="login-hero-section" class="hero-section">
+            <div id="login-form" class="form-container">
+                <form method = "POST" action="entry.html">
+                    <p class="form-name">ADMIN LOGIN</p>
+                    <img src="assets/user.png" alt="user-icon">
+                    <div class="loginInfo">
+                        <div><input type="email" placeholder="Email" name="email" required></div>
+                        <div><input type="password" placeholder="Password" name="password" required></div>
+                        <div><button class="login-btn btn" type="submit">Login</button></div>
+                    </div>
+                </form>
+            </div>             
+        </section>
+       
+    </main>
+    <footer class="last-footer">
+        <!-- flexbox -->
+        <section id="contact-info">
+            <article class="footer-card">
+                <h3>Location</h3>
+                <p>Queen Mary University, London</p>
+                <p>E1 4NS</p>
+            </article>
+            <article class="footer-card">
+                <h3>Socials</h3>
+                <img class="socials-icons" src="assets/social-icons/facebook.png" alt="facebook-icon">
+                <img class="socials-icons" src="assets/social-icons/instagram.png" alt="instagram-icon">
+                <img class="socials-icons" src="assets/social-icons/linkedin.png" alt="linkedin-icon">
+                <img class="socials-icons" src="assets/social-icons/twitter.png" alt="twitter-icon">
+            </article>
+            <article class="footer-card">
+                <h3>About Portfolio</h3>
+                <p>This is my website created by Vivian Efiannayi using HTML, CSS, JS and PHP.</p>
+            </article>
+        </section>
+        <section id="copyright">
+            <div>Copyright © Vivian Efiannayi 2022</div>
+        </section>
+    </footer>
+</body>
+</html>
